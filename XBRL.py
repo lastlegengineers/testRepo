@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests, re, sys
-
+#python -m pip install beautifulsoup4
+#python -m pip install lxml
 
 def getRange(tag_list, contextref):
     #loop through all tags
